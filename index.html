@@ -5,110 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check Point 01 - Frontend</title>
-    <link rel="resetcss" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="cabecalho">
+            
             <div class="logo">
                 <img src="./img/logo.png">
             </div>
-            <div class="menu">
+            <div class="menuhamburguer">
+                <img src="./img/Hamburger_icon_white.svg">
+            </div>
+            <nav class="menu">
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">PONTOS TURISTICOS</a></li>
-                    <li><a href="#">GASTRONOMIA</a></li>
-                    <li><a href="#">NA WEB</a></li>
+                    <li><a href="#">CURIOSIDADES</a></li>
+                    <li><a href="#">VIDEO</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
-
-        <!--<div class="navbar">
-            <div class="logo">
-                <img src="./img/logo.png" alt="#">
-            </div>
-            <div class="menu-mobile">
-                <img src="./img/menu-mobile.svg" alt="#">
-            </div>
-        </div>-->
-        
-        <!--<nav>
-            <ul>
-                <li>EVENTOS</li>
-                <li>GASTRONOMIA</li>
-                <li>ATRAÇÕES</li>
-                <li>COMPRAS</li>
-            </ul>
-        </nav>
-    
-    <section class ="video">
-    </section>
-    
-    -->
     </header>
 
     <main> 
-        <!--
-        <div class="videodecima"> 
-            <video autoplay muted loop id="myVideo">
-                <source src="./img/video.mp4" type="video/mp4">
-            </video> 
-        </div>-->
-        <!--<div class=preto>
-
-        </div>-->
-        <section class="teste">
-            <di>
-                teste
-            </di>
-
+       
+        <section class="apresentacao"> 
+                    <video autoplay muted loop id="myVideo">
+                        <source src="./img/video.mp4" type="video/mp4">
+                    </video> 
         </section>
-        <div class="curiosidades">   
-            <div>
-                <p>Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, quam.</p>
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, atque!</p>
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maxime possimus quasi amet eveniet atque placeat. Libero sit a est!</p>
-            </div>
-        </div>
+
+        <section class="curiosidades">
+            <h2 class="titulo">Curiosidades da cidade</h2>
+            <nav class="itens">
+                <div class="item">
+                    <img src="./img/bondinho.jpg" alt="">
+                    <h3>Bondinho na Praia</h3>
+                    <p>A primeira das curiosidades sobre Balneário Camboriú está relacionada ao Parque Unipraias. Único teleférico no mundo que liga duas praias, a praia Central à praia de Laranjeiras.</p>
+                </div>
+                <div class="item">
+                    <img src="./img/aquarium.jpg" alt="">
+                    <h3>Oceanic Aquarium</h3>
+                    <p>Outra curiosidade sobre Balneário Camboriú é que ela abriga o maior aquário do sul do Brasil. O Oceanic Aquarium conta com 25 tanques e 2,2 mil metros². Composto por 3 pavimentos, mostra o mundo fascinante das espécies marinhas, com 250 espécies de 6 continentes. </p>
+                </div>
+                <div class="item">
+                    <img src="./img/barco.jpg" alt="">
+                    <h3>Barco Pirata</h3>
+                    <p>O passeio de Navio Pirata é uma tradição na cidade que agrada pessoas de todas as idades. O barco animado é uma curiosidade para os turistas, afinal ele é o único barco de passeio temático da região que sai da Barra Sul em direção à Praia de Laranjeiras apresentando um divertido teatro repleto de danças e música. 
+
+                        A atração agrada não só turistas, mas também moradores, visto que é uma forma de fazer o percurso de bondinho até a Praia de Laranjeiras e tomar o navio de volta para a Barra Sul após uma tarde de descanso.</p>
+                </div>
+            </nav>
+        </section>  
+        
     <section class="video">
         <h2 class="titulo">Assista agora um pouco da história da cidade</h2>
         <iframe  src="https://www.youtube.com/embed/Wqte__DM854" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     </main>
-    <!--
-    <section>
-        EVENTOS
-    </section>
-    <section>
-        GASTRONOMIA
-    </section>
-    <section>
-        ATRAÇÕES
-    </section>
-    <section>
-        COMPRAS
-    </section>
-    <section>
-        NA WEB
-    </section>-->
     
-    <footer>        
-        <div class="icone">
-            <a href="https://www.linkedin.com/in/jeanvaristo/" target="blank"><img src="./img/linkedin.png" alt=""></a>
-        </div>
-        <div class="icone">
-            <a href="https://github.com/Jean-varisto" target="blank"><img src="./img/git.png" alt=""></a>
-        </div>
+    <footer>
+        <nav class="caixafooter">
+            <div class="icone">
+                <a href="https://www.linkedin.com/in/jeanvaristo/" target="blank"><img src="./img/linkedin1.png" alt=""></a>
+                <a href="https://github.com/Jean-varisto" target="blank"><img src="./img/git.png" alt=""></a>
+            </div>
 
-        <div class="linha-rodape">
-            <p>Todos os direitos reservados a Jean Carlos Varisto © </p>
-        </div>
+            <div class="linha-rodape">
+                <p>Todos os direitos reservados a Jean Carlos Varisto © </p>
+            </div>
+        </nav>
     </footer>
 </body>
 </html>
